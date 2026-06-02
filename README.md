@@ -1,6 +1,6 @@
 # Yanghanyu Zhao — Academic Homepage
 
-Personal academic website for [happyhanyu.github.io](https://happyhanyu.github.io/), built as a classic static GitHub Pages site.
+Personal academic website for [yanghanyuzhao.github.io](https://yanghanyuzhao.github.io), built as a classic static GitHub Pages site.
 
 ## Local preview
 
@@ -14,13 +14,13 @@ Then visit [http://localhost:8000](http://localhost:8000).
 
 ## GitHub Pages deployment
 
-This repo is named `happyhanyu.github.io`, so it publishes automatically as a **user site** at:
+This repo is named `yanghanyuzhao.github.io`, so it publishes automatically as a **user site** at:
 
-**https://happyhanyu.github.io**
+**https://yanghanyuzhao.github.io**
 
 ### First-time setup
 
-1. Push this repo to `HappyHanyu/happyhanyu.github.io` on GitHub.
+1. Push this repo to `yanghanyuzhao/yanghanyuzhao.github.io` on GitHub.
 2. Go to **Settings → Pages** in the repository.
 3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
 4. Choose branch **`main`** and folder **`/ (root)`**, then save.
