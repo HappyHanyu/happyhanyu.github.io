@@ -1,6 +1,6 @@
 # Yanghanyu Zhao — Academic Homepage
 
-Personal academic website for [happyhanyu.github.io](https://happyhanyu.github.io), built as a classic static GitHub Pages site.
+Personal academic website for [happyhanyu.github.io](https://happyhanyu.github.io/), built as a classic static GitHub Pages site.
 
 ## Local preview
 
