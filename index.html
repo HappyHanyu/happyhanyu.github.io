@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yanghanyu Zhao — MS Computer Science candidate seeking PhD opportunities in NLP, machine learning, and intelligent systems.">
+  <title>Yanghanyu Zhao</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="resource/Yanghanyu_Zhao_CV.pdf" class="nav-cv" target="_blank" rel="noopener">CV (PDF)</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Yanghanyu Zhao</h1>
+          <p class="subtitle">MS in Computer Science · PhD Applicant</p>
+          <p class="tagline">
+            I am a graduate student at Syracuse University with a background in software engineering
+            and hands-on research experience in NLP, machine learning, and LLM-integrated systems.
+            I am actively seeking PhD opportunities in areas spanning natural language processing,
+            applied AI, and reliable intelligent systems.
+          </p>
+          <div class="hero-links">
+            <a href="mailto:zhaoyanghanyu@gmail.com">zhaoyanghanyu@gmail.com</a>
+            <span class="sep">·</span>
+            <a href="https://www.linkedin.com/in/yanghanyu-zhao-8a61722b6" target="_blank" rel="noopener">LinkedIn</a>
+            <span class="sep">·</span>
+            <a href="resource/Yanghanyu_Zhao_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <h2>Research Interests</h2>
+      <ul class="interest-list">
+        <li>Natural Language Processing &amp; text classification</li>
+        <li>Machine learning model design, evaluation, and error analysis</li>
+        <li>LLM-augmented systems with deterministic, reliable execution</li>
+        <li>Distributed systems and microservice architectures for AI applications</li>
+      </ul>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Syracuse University</h3>
+          <span class="entry-meta">Syracuse, NY · 2023 – 2025</span>
+        </div>
+        <p class="entry-detail">Master of Science in Computer Science</p>
+      </div>
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Dalian Neusoft University of Information</h3>
+          <span class="entry-meta">Dalian, Liaoning · 2018 – 2022</span>
+        </div>
+        <p class="entry-detail">Bachelor of Engineering in Software Engineering</p>
+      </div>
+    </section>
+
+    <section id="research-experience" class="section">
+      <h2>Research &amp; AI Experience</h2>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Multi-Model Toxic Comment Classification and Evaluation</h3>
+        </div>
+        <ul>
+          <li>Built an end-to-end NLP pipeline to classify toxic social media comments, including text cleaning, tokenization, stop-word removal, stemming/lemmatization, EDA, feature engineering, model training, and evaluation.</li>
+          <li>Engineered TF-IDF, TextBlob sentiment polarity, and Doc2Vec feature representations to capture lexical importance, emotional tone, and semantic context.</li>
+          <li>Trained and compared Naive Bayes, Logistic Regression, SVM, and Keras Sequential Neural Network models; evaluated with accuracy, precision, recall, F1-score, confusion matrices, ROC curves, and AUC.</li>
+          <li>Identified Logistic Regression with TF-IDF/sentiment features as the strongest model (~88% accuracy, 0.94 AUC); analyzed feature-combination trade-offs.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Machine Learning Model Implementation and Evaluation</h3>
+        </div>
+        <ul>
+          <li>Implemented linear/logistic regression, neural networks, random forests, PCA, and K-Means using Python, PyTorch, scikit-learn, NumPy, pandas, and Matplotlib.</li>
+          <li>Performed preprocessing, feature scaling, train/test splitting, validation analysis, and model comparison across classification, regression, clustering, and dimensionality-reduction tasks.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>LLM-Enhanced Microservice Commerce Platform</h3>
+          <span class="entry-meta">March 2026 – April 2026</span>
+        </div>
+        <ul>
+          <li>Built an LLM-enabled system connecting natural-language interaction with backend workflows for product search, order lookup, and checkout.</li>
+          <li>Integrated the assistant into a distributed microservice architecture using JWT-secured APIs, OpenFeign, and Kafka for synchronous and event-driven coordination.</li>
+          <li>Separated LLM-based intent interpretation from deterministic business execution for reliability; packaged with Docker Compose for reproducible deployment.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Work Experience</h2>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Neusoft Group (Dalian) Co., Ltd</h3>
+          <span class="entry-meta">Dalian, China · July 2021 – August 2023</span>
+        </div>
+        <p class="entry-role">Java Software Engineer</p>
+        <ul>
+          <li>Launched 10+ production releases of insurance policy and calculation modules for Sumitomo Life Insurance (14M+ policyholders), engineering backend REST APIs with Java Spring Boot and AWS (S3, Lambda, Kinesis).</li>
+          <li>Designed and optimized MySQL database schemas for policy and claims data; used Redis caching to improve query performance.</li>
+          <li>Elevated customer satisfaction from 4.2 to 4.6/5 by leading a quality improvement initiative across 90 design books, developing targeted JUnit/Mockito test suites, and authoring 60 standardized testing books.</li>
+          <li>Revamped data computation modules in Java and redesigned 10 documentation pages using TypeScript, React, and CSS.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Yunnan Yitu Technology Co., Ltd</h3>
+          <span class="entry-meta">Kunming, China · June 2020 – December 2020</span>
+        </div>
+        <p class="entry-role">Software Engineer (Intern)</p>
+        <ul>
+          <li>Developed a full-stack power monitoring system with a React/Redux real-time visualization interface and RESTful APIs for data exchange between control software and external applications.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Software Engineering Projects</h2>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Gmall — Distributed E-Commerce Platform</h3>
+          <span class="entry-meta">July 2025 – Present</span>
+        </div>
+        <ul>
+          <li>Architected a distributed e-commerce platform with 10+ microservices using Spring Boot and Spring Cloud (Nacos, Feign, Sentinel, Sleuth + Zipkin), with API Gateway for routing, rate limiting, and authentication.</li>
+          <li>Implemented Elasticsearch for full-text product search; integrated RabbitMQ for asynchronous order processing with dead-letter delay queues and publisher confirm + manual ACK for reliable delivery.</li>
+          <li>Built responsive storefronts with Vue.js and ElementUI; containerized services with Docker, deployed on Kubernetes, and built a Jenkins CI/CD pipeline.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>ContentGuard — Blockchain-based NFT Marketplace</h3>
+          <span class="entry-meta">February 2025 – June 2025</span>
+        </div>
+        <ul>
+          <li>Built a decentralized NFT marketplace on Ethereum (Sepolia testnet) with Solidity smart contracts (ERC-721) for verified copyright and on-chain ownership.</li>
+          <li>Developed a React.js frontend integrated with Web3.js and MetaMask; leveraged IPFS for immutable content and metadata storage.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <dl class="skills-grid">
+        <dt>Languages</dt>
+        <dd>Java, Python, JavaScript, TypeScript, SQL, HTML/CSS</dd>
+        <dt>Software Engineering</dt>
+        <dd>Spring Boot, Spring Cloud, RESTful APIs, Microservices, React, Vue.js, Web3.js</dd>
+        <dt>AI / ML / NLP</dt>
+        <dd>scikit-learn, TensorFlow/Keras, NLTK, TextBlob, Gensim, TF-IDF, Doc2Vec, Logistic Regression, SVM, Naive Bayes</dd>
+        <dt>QA &amp; Evaluation</dt>
+        <dd>JUnit, unit/functional testing, model evaluation, confusion matrix, ROC/AUC, F1-score</dd>
+        <dt>Tools &amp; Infrastructure</dt>
+        <dd>MySQL, Redis, Elasticsearch, RabbitMQ, AWS, Docker, Kubernetes, Jenkins, Git, Linux</dd>
+      </dl>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2>Contact</h2>
+      <p>
+        I welcome inquiries about PhD opportunities and research collaborations.
+        Please feel free to reach out via email.
+      </p>
+      <ul class="contact-list">
+        <li><strong>Email:</strong> <a href="mailto:zhaoyanghanyu@gmail.com">zhaoyanghanyu@gmail.com</a></li>
+        <li><strong>Phone:</strong> +1 (680) 697-3795</li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yanghanyu-zhao-8a61722b6" target="_blank" rel="noopener">linkedin.com/in/yanghanyu-zhao</a></li>
+        <li><strong>CV:</strong> <a href="resource/Yanghanyu_Zhao_CV.pdf" target="_blank" rel="noopener">Yanghanyu_Zhao_CV.pdf</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Yanghanyu Zhao · <a href="https://github.com/HappyHanyu">GitHub</a></p>
+  </footer>
+</body>
+</html>
